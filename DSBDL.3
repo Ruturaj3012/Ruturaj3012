@@ -1,0 +1,25 @@
+Q3. How can I combine sales data from two different months, sales_january = np.array([300, 400]) and sales_february = np.array([500, 600])?
+Answer:
+
+1.Using np.concatenate():
+code:
+import numpy as np
+sales_january = np.array([300, 400])
+sales_february = np.array([500, 600])
+combined_sales = np.concatenate((sales_january, sales_february))
+print(combined_sales)
+
+Output:
+[300 400 500 600]
+
+2.Using np.append():
+Code:
+import numpy as np
+sales_january = np.array([300, 400])
+sales_february = np.array([500, 600])
+combined_sales = np.append(sales_january, sales_february)
+
+print(combined_sales)
+
+Output:
+[300 400 500 600]

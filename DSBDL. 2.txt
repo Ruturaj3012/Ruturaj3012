@@ -1,0 +1,28 @@
+Q.2 and multiply these arrays element-wise?If I have two arrays representing the prices of products in two different stores, [10, 20, 30] and [1, 2, 3], how can I add.
+Answer:
+
+1. Multiplication:
+   Code:
+         import numpy as np
+
+         array1=[10,20,30]
+         array2=[1,2,3]
+         result=np.multiply(array1, array2)
+
+
+         print(result)
+   Output:
+        [10 40 90]
+
+2. Addition:
+   Code:
+          import numpy as np
+          array1=[10,20,30]
+          array2=[1,2,3]
+          result=np.add(array1, array2)
+
+
+          print(result)
+
+   Output:
+          [11 22 33]
